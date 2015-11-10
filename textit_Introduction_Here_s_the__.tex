@@ -2,4 +2,37 @@
 
 Here's the introduction
 
+\subsection{What this work is not}
+
+\subsection{A Use Case}
+
+\subsection{The Bare Bones}
+Data Infrastructure Needs for the Materials Genome Initiative:
+\begin{enumerate}
+\item Some sort of interface/api that the user interacts with to deposit their information such that (2) is enabled.  This entails
+\begin{enumerate}
+\item The establishment of repositories to store the data
+\item The reposed data should then be marked up with sufficient metadata to inform someone else how the data was created, including attribution or provenance information relevant to citation 
+(There is a likely role for standard metadata schemes for certain types of data in this requirement)
+\item	Assignment of a persistent digital identifier (like the DOI for journals) so the data can be cited and discovered by others
+\item Assignment of terms of use for the data (licenses), for both the creator of the data and the repository
+\end{enumerate}
+\item 
+\end{enumerate}
+
+e.	Tools must be developed to
+i.	enable the ingest of data from computation or experiment for deposition in a repository
+ii.	simplify metadata collection, e.g. by
+1.	Automatically assigning some basic metadata
+2.	Implementing automatic extraction of metadata to the extent possible 
+iii.	Assign persistent digital identifiers
+2.	Some sort of interface/api that the user interacts with to find needed information.  This requires (at least)
+a.	the registration of the availability of the data into some sort of “registry” to enable discovery without prior knowledge of the existence of the repository/specific data features.
+b.	Various types of policy enforcement  
+c.	Terminologies and ontologies to enhance search 
+d.	Tools to enable assessments of the relevance of the data to the question at hand, such as quick-look plotting or imaging capabilities
+
+
+
+The technologies to do items 1+2 are not well developed in materials science.  That is, if you were to do a Google search for X-ray data for a particular crystal, the results would be highly uneven at best, and largely worthless some of the time.  Let’s start by addressing (2).  We assume a researcher is developing a new material, and in order to do that, he needs a baseline of the existing materials data and models that will enable this design.  
 
